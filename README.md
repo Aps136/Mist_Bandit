@@ -1,5 +1,7 @@
 # Mist_Bandit
 ## BANDIT 0-1
+![bandit0](https://github.com/user-attachments/assets/2e19b64f-47b8-4ac5-bed3-23972f09883d)
+
 
 ### commands used:
 ssh bandit0@bandit.labs.overthewire.org -p 2220
@@ -10,6 +12,9 @@ exit
 
 
 ## BANDIT 1-2
+![bandit1-2](https://github.com/user-attachments/assets/d43e8c5a-ec44-4ef2-a4f6-d3c21730d77e)
+
+
 
 ### commands used:
 ssh bandit1@bandit.labs.overthewire.org -p 2220
@@ -19,6 +24,9 @@ cat ./-
 exit
 
 ## BANDIT 2-3
+![bandit2-3](https://github.com/user-attachments/assets/fbe05547-7785-4ce1-a648-449f5be8032b)
+
+
 ### ssh bandit2@bandit.labs.overthewire.org -p 2220
 ### Enter password from prev level
 ### ls
@@ -27,16 +35,21 @@ exit
 ### exit
 
 ## BANDIT 3-4
+![badnit3-4](https://github.com/user-attachments/assets/41af7898-e7d5-4608-8ebd-722b69d544df)
+
+
 ### ssh bandit3@bandit.labs.overthewire.org -p 2220
 ### Enter password from prev level
 ### cd inhere
 ### ls -a
 ### find . -type f -name '.*'
-### cat .hidden
+### cat ...Hiding-From-You
 ### password obtained: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ### exit
 
 ## BANDIT 4-5
+![badnit5](https://github.com/user-attachments/assets/368dcff8-9bf4-4561-acc9-825fada4bb7d)
+
 ### ssh bandit4@bandit.labs.overthewire.org -p 2220
 ### Enter password from prev level
 ### command used:
@@ -48,6 +61,8 @@ exit
 ### exit
 
 ## BANDIT 5-6
+
+![bandit6](https://github.com/user-attachments/assets/28445692-9254-4f29-ada7-a9b7ea145144)
 ### ssh bandit5@bandit.labs.overthewire.org -p 2220
 ### Enter prev level password
 ### command used: 
@@ -58,6 +73,9 @@ exit
 ### exit
 
 ## BANDIT 6-7
+
+![bandit7](https://github.com/user-attachments/assets/b01d2221-34b1-4ea2-8d57-0c94de54ed9d)
+
 ### ssh bandit6@bandit.labs.overthewire.org -p 2220
 ### Use prev level password
 ### find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
@@ -66,6 +84,8 @@ exit
 ### exit
 
 ## BANDIT 7-8
+![bandit7-8](https://github.com/user-attachments/assets/1dc4f841-9f4a-48ce-8470-b77e0938330e)
+
 ### ssh bandit7@bandit.labs.overthewire.org -p 2220
 ### Use prev level password
 ### ls
@@ -75,6 +95,9 @@ exit
 ### exit
 
 ## BANDIT 8-9
+![bandti8-9](https://github.com/user-attachments/assets/740090d1-8448-4762-a67f-3b43c7d156fd)
+
+
 ### ssh bandit8@bandit.labs.overthewire.org -p 2220
 ### Use prev level password
 ### cat data.txt
@@ -85,17 +108,24 @@ exit
 
 
 ## BANDIT 9-10
+![bandit9-10](https://github.com/user-attachments/assets/0e1f6bc3-0603-4f94-82d5-fe869111fbc7)
+
+
 ### ssh bandit9@bandit.labs.overthewire.org -p 2220
 ### Use prev level password
 ### commands used: 
 ### ls
-### sort data.txt | uniq -u
+### strings data.txt
+### strings data.txt | grep '=='
 ### password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 ### exit
 
 
 
 ## BANDIT 10-11
+
+![badnit9-10](https://github.com/user-attachments/assets/38c0938d-0911-4eca-aca0-408bd76401c2)
+
 ### ssh bandit10@bandit.labs.overthewire.org -p 2220
 ### Use prev level password
 ### ls
@@ -105,6 +135,8 @@ exit
 
 
 ## BANDIT 11-12
+![badnit11-12](https://github.com/user-attachments/assets/faec6eaa-111c-4af1-ab8f-87763ffe1fc5)
+
 ### ssh bandit11@bandit.labs.overthewire.org -p 2220
 ### Use prev level password
 ### ls
@@ -115,6 +147,9 @@ exit
 
 
 ## BANDIT 12-13
+![bandit13](https://github.com/user-attachments/assets/1105bde0-13cd-458a-9c2b-ea49c0d72447)
+
+
 ### ssh bandit12@bandit.labs.overthewire.org -p 2220
 ### Use prev level password
 cd $(mktemp -d)
@@ -173,32 +208,38 @@ cat data8
 exit
 
 ## BANDIT 13-14
+![p3](https://github.com/user-attachments/assets/57faadcb-645d-4c51-89e0-ccb372d5bb6a)
 
 ### ssh bandit13@bandit.labs.overthewire.org -p 2220
 ### ls
-### sshkey.private
 ### cat sshkey.private
 ### ssh -i sshkey.private bandit14@localhost -p 2220
 ### cat /etc/bandit_pass/bandit14
-### password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+### password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 ### exit
 
 
 ## BANDIT 14-15
+![14-15](https://github.com/user-attachments/assets/24ccae87-64bc-48b1-8dfb-168a1f4c0050)
+
+
 ### ssh bandit14@bandit.labs.overthewire.org -p 2220
 ### commands used:
 ### telnet localhost 30000
-### entered password 14
-### PASSWORD: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+### Enter prev password
+### PASSWORD: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 ### exit
 
 
 ## BANDIT 15-16
+![15-6](https://github.com/user-attachments/assets/7decf2a7-a9bf-4bc3-815a-cb931850eda9)
+
+
 ### ssh bandit15@bandit.labs.overthewire.org -p 2220
 ### commands used: 
 ### openssl s_client -connect localhost:30001
-### entered password 15eel1
-### PASSWORD: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+### entered password prev password
+### PASSWORD: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 ### exit
 
 
