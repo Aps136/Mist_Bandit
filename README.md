@@ -1,12 +1,15 @@
 # Mist_Bandit
 ## BANDIT 0-1
 
-commands used:
+### commands used:
 ssh bandit0@bandit.labs.overthewire.org -p 2220
-when promted for password, write bandit0 
+### when promted for password, write bandit0 
 cat readme
 **password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
 exit
+
+
+
 
 ## BANDIT 1-2
 commands used:
