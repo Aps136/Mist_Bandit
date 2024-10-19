@@ -1,5 +1,6 @@
 # Mist_Bandit
 ## BANDIT 0-1
+
 commands used:
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 when promted for password, write bandit0 
