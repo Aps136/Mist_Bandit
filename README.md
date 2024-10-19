@@ -127,24 +127,19 @@ bunzip2 binaryfile.bz2
 file binaryfile
 
 mv binaryfile binaryfile.gz
-bandit12@bandit:/tmp/tmp.p9pkbg4dxB$ gunzip binaryfile.gz
-bandit12@bandit:/tmp/tmp.p9pkbg4dxB$ file binaryfile
+gunzip binaryfile.gz
+file binaryfile
 
 mv binaryfile binaryfile.tar
 tar -xf binaryfile.tar
 file binaryfile
-
-
 ls -l
 total 36
-
 file data5.bin
-
 mv data5.bin data5.tar
 tar -xf data5.tar
 ls -l
 total 40
-
 tar -xf data5.tar
 ls -l
 total 40
@@ -161,8 +156,6 @@ tar -xf data6.tar
 ls -l
 total 52
 
-
-
 file data8.bin
 mv data8.bin data8.gz
 gunzip data8.gz
@@ -171,7 +164,7 @@ total 52
 
 file data8
 data8: ASCII text
-bandit12@bandit:/tmp/tmp.p9pkbg4dxB$ cat data8
+cat data8
 The password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 exit
 
