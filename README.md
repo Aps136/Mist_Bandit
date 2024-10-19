@@ -1,5 +1,5 @@
 # Mist_Bandit
-# BANDIT 0-1
+## BANDIT 0-1
 commands used:
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 when promted for password, write bandit0 
@@ -7,7 +7,7 @@ cat readme
 password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 exit
 
-##BANDIT 1-2
+## BANDIT 1-2
 commands used:
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 ENTER password from prev level
@@ -15,7 +15,7 @@ cat ./-
 password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 exit
 
-##BANDIT 2-3
+## BANDIT 2-3
 ssh bandit2@bandit.labs.overthewire.org -p 2220
 Enter password from prev level
 ls
@@ -23,7 +23,7 @@ cat "spaces in this filename"
 password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 exit
 
-##BANDIT 3-4
+## BANDIT 3-4
 ssh bandit3@bandit.labs.overthewire.org -p 2220
 Enter password from prev level
 cd inhere
@@ -33,7 +33,7 @@ cat .hidden
 password obtained: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 exit
 
-##BANDIT 4-5
+## BANDIT 4-5
 ssh bandit4@bandit.labs.overthewire.org -p 2220
 Enter password from prev level
 command used:
@@ -44,7 +44,7 @@ cat ./-file07
 password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 exit
 
-##BANDIT 5-6
+## BANDIT 5-6
 ssh bandit5@bandit.labs.overthewire.org -p 2220
 Enter prev level password
 command used: 
@@ -54,7 +54,7 @@ cat ./maybehere07/.file2
 password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 exit
 
-##BANDIT 6-7
+## BANDIT 6-7
 ssh bandit6@bandit.labs.overthewire.org -p 2220
 Use prev level password
 find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
@@ -62,7 +62,7 @@ cat /var/lib/dpkg/info/bandit7.password
 password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 exit
 
-##BANDIT 7-8
+## BANDIT 7-8
 ssh bandit7@bandit.labs.overthewire.org -p 2220
 Use prev level password
 ls
@@ -71,7 +71,7 @@ grep "millionth" ./data.txt
 password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 exit
 
-##BANDIT 8-9
+## BANDIT 8-9
 ssh bandit8@bandit.labs.overthewire.org -p 2220
 Use prev level password
 cat data.txt
@@ -81,7 +81,7 @@ exit
 
 
 
-##BANDIT 9-10
+## BANDIT 9-10
 ssh bandit9@bandit.labs.overthewire.org -p 2220
 Use prev level password
 commands used: 
@@ -92,7 +92,7 @@ exit
 
 
 
-##BANDIT 10-11
+## BANDIT 10-11
 ssh bandit10@bandit.labs.overthewire.org -p 2220
 Use prev level password
 ls
@@ -100,7 +100,7 @@ cat data.txt
 password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
 
-##BANDIT 11-12
+## BANDIT 11-12
 ssh bandit11@bandit.labs.overthewire.org -p 2220
 Use prev level password
 ls
@@ -110,7 +110,7 @@ password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 exit
 
 
-##BANDIT 12-13
+## BANDIT 12-13
 ssh bandit12@bandit.labs.overthewire.org -p 2220
 Use prev level password
 cd $(mktemp -d)
@@ -168,7 +168,7 @@ cat data8
 The password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 exit
 
-##BANDIT 13-14
+## BANDIT 13-14
 
 ssh bandit13@bandit.labs.overthewire.org -p 2220
 ls
@@ -180,7 +180,7 @@ password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 exit
 
 
-##BANDIT 14-15
+## BANDIT 14-15
 ssh bandit14@bandit.labs.overthewire.org -p 2220
 commands used:
 telnet localhost 30000
@@ -189,7 +189,7 @@ PASSWORD: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 exit
 
 
-##BANDIT 15-16
+## BANDIT 15-16
 ssh bandit15@bandit.labs.overthewire.org -p 2220
 commands used: 
 openssl s_client -connect localhost:30001
